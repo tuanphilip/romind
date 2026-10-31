@@ -213,23 +213,23 @@ export default {
       let url = ''
       switch (command) {
         case 'github':
-          url = 'https://github.com/wanglin2/mind-map'
+          url = 'https://github.com/tuanphilip/romind'
           break
         case 'helpDoc':
-          url = 'https://wanglin2.github.io/mind-map-docs/help/help1.html'
+          url = 'https://tuanphilip.github.io'
           break
         case 'devDoc':
           url =
-            'https://wanglin2.github.io/mind-map-docs/start/introduction.html'
+            'https://tuanphilip.github.io'
           break
         case 'site':
-          url = 'https://sxmind.cn/'
+          url = 'https://tuanphilip.github.io'
           break
         case 'issue':
-          url = 'https://github.com/wanglin2/mind-map/issues/new'
+          url = 'https://github.com/tuanphilip/romind/issues'
           break
         case 'client':
-          url = 'https://sxmind.cn/'
+          url = 'https://tuanphilip.github.io'
           break
         default:
           break
