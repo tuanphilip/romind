@@ -4,6 +4,7 @@
         if (!localStorage.getItem('SIMPLE_MIND_MAP_LANG') || localStorage.getItem('SIMPLE_MIND_MAP_LANG') === 'zh') {
           localStorage.setItem('SIMPLE_MIND_MAP_LANG', 'en');
         }
+        localStorage.setItem('webUseTip', '1');
         var data = localStorage.getItem('SIMPLE_MIND_MAP_DATA');
         if (data && (data.indexOf('\u6839\u8282\u70b9') !== -1 || data.indexOf('\u4e8c\u7ea7\u8282\u70b9') !== -1)) {
           localStorage.removeItem('SIMPLE_MIND_MAP_DATA');
