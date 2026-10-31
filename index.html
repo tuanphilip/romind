@@ -4,10 +4,7 @@
         if (!localStorage.getItem('SIMPLE_MIND_MAP_LANG') || localStorage.getItem('SIMPLE_MIND_MAP_LANG') === 'zh') {
           localStorage.setItem('SIMPLE_MIND_MAP_LANG', 'en');
         }
-        var rawData = localStorage.getItem('SIMPLE_MIND_MAP_DATA');
-        if (rawData && rawData.indexOf('\u6839\u8282\u70b9') !== -1) {
-          localStorage.removeItem('SIMPLE_MIND_MAP_DATA');
-        }
+        localStorage.removeItem('SIMPLE_MIND_MAP_DATA');
       } catch (e) {}
       // 接管应用
       window.takeOverApp = false</script><link href="dist/css/chunk-vendors.css?720fe4d863ea0fdcc0fb" rel="stylesheet"><link href="dist/css/app.css?720fe4d863ea0fdcc0fb" rel="stylesheet"></head><body><noscript><strong>We're sorry but thoughts doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>const getDataFromBackend = () => {
